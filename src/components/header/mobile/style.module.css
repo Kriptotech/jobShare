@@ -1,0 +1,73 @@
+.container {
+    padding: 20px 5%;
+    width: 100%;
+}
+.container nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav span {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.container nav svg {
+    cursor: pointer;
+    z-index: 5;
+}
+.container nav svg.fixed_btn {
+    position: fixed;
+    right: 5%;
+}
+
+.container .bg {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.763);
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+}
+.container .bg div {
+    width: min(300px, 70%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background: radial-gradient(
+            44.06% 78.54% at 64.83% 50%,
+            rgba(63, 113, 174, 0.74) 1.95%,
+            rgba(55, 93, 139, 0.74) 0%,
+            rgba(8, 32, 62, 0.74) 60.02%
+        ),
+        linear-gradient(142.79deg, #000 38.6%, #162b45 83.59%);
+}
+.container .bg div a {
+    color: #fff;
+    font-size: 0.97rem;
+    transition: 0.4s;
+}
+.container .bg div a:last-child {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #ee711c;
+}
+.container .bg div a:hover {
+    color: #ee711c;
+}
+.container .bg div a:last-child:hover {
+    color: #fff;
+}
+
+@media (min-width: 900px) {
+    .container {
+        display: none;
+    }
+}

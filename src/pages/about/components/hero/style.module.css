@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    background: radial-gradient(
+            44.06% 78.54% at 64.83% 50%,
+            rgba(63, 113, 174, 0.74) 1.95%,
+            rgba(55, 93, 139, 0.74) 48.44%,
+            rgba(8, 32, 62, 0.74) 89.02%
+        ),
+        linear-gradient(142.79deg, #000 38.6%, #162b45 83.59%);
+    color: #fff;
+}
+
+.box {
+    padding: 4rem 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+}

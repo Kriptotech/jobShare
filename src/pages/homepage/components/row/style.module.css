@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    min-height: 400px;
+    background: url(./assets/jobsearchblock__background.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.container strong {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 20px 0;
+    text-align: center;
+}
+.container p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+
+.container a {
+    display: inline-block;
+    background-color: #104072;
+    border: 1px solid #104072;
+    color: #fff;
+    outline: 1px solid #104072;
+    padding: 15px 40px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+.container a:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    z-index: 500;
+    display: flex;
+    bottom: 90px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 35%;
+    background: #25d366;
+    transition: all 0.3s ease;
+}
+.container:hover {
+    border: 2px solid #fff;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 900px) {
+    .container {
+        right: 30px;
+        bottom: 50px;
+    }
+}

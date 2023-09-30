@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    min-height: 400px;
+    background: url(./assets/signupblock__background.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.box {
+    padding: 4rem 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+}

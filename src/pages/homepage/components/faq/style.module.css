@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    padding: 70px 13%;
+    color: #fff;
+    background: radial-gradient(
+            44.06% 78.54% at 64.83% 50%,
+            rgba(63, 113, 174, 0.74) 1.95%,
+            rgba(55, 93, 139, 0.74) 48.44%,
+            rgba(8, 32, 62, 0.74) 89.02%
+        ),
+        linear-gradient(142.79deg, #000 38.6%, #162b45 83.59%);
+    color: #fff;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 70px 5%;
+    }
+}

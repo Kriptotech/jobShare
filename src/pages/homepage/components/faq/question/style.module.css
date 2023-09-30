@@ -1,0 +1,16 @@
+.container {
+    margin-bottom: 40px;
+}
+.container div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+}
+.container p {
+    color: #e1e1e8;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}

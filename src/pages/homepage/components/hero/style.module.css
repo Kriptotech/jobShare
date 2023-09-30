@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    background: radial-gradient(
+            44.06% 78.54% at 64.83% 50%,
+            rgba(63, 113, 174, 0.74) 1.95%,
+            rgba(55, 93, 139, 0.74) 48.44%,
+            rgba(8, 32, 62, 0.74) 89.02%
+        ),
+        linear-gradient(142.79deg, #000 38.6%, #162b45 83.59%);
+    color: #fff;
+}
+
+.box {
+    padding: 8.3rem 5%;
+    width: 100%;
+}
+
+.box h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.box strong {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 30px;
+    padding-right: 10rem;
+}
+
+.box div {
+    display: flex;
+    width: min(500px, 100%);
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box div a {
+    display: inline-block;
+    padding: 20px 70px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #104072;
+    border: 1px solid #104072;
+    color: #fff;
+    outline: 1px solid #104072;
+}
+.box div a:last-child {
+    background-color: #fff;
+    color: #104072;
+}
+.box a:hover {
+    opacity: 0.8;
+}
+
+.box span {
+    margin-top: 45px;
+    font-size: 0.9rem;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 560px) {
+    .box {
+        padding: 7rem 5%;
+    }
+
+    .box h1 {
+        font-size: 2rem;
+        line-height: unset;
+    }
+
+    .box p {
+        font-size: 0.9rem;
+        padding-right: 0px;
+    }
+
+    .box div {
+        gap: 15px;
+    }
+    .box div a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 420px) {
+}

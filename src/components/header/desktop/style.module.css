@@ -1,0 +1,44 @@
+.container {
+    padding: 20px 5%;
+    width: 100%;
+}
+.container nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav span {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.container nav div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container nav div a {
+    color: #fff;
+    font-size: 0.97rem;
+    transition: 0.4s;
+}
+.container nav div a:last-child {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.container nav div a:hover {
+    color: #ee711c;
+}
+.container nav div a:last-child:hover {
+    background: #ee711c;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: none;
+    }
+}
